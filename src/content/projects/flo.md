@@ -4,7 +4,7 @@ slug: "design-d-etiquettes"
 type: Personnel
 category: Design
 filterType: design
-image: /assets/thumbnails/chutney.webp
+image: /figuerola-nelia/assets/thumbnails/chutney.webp
 description: "Ma tante est cheffe privée, depuis petite, je l'aide à faire ses chutneys, en été, pour vendre à des restaurants proches de là où je viens (66). Avec les années, je ne peux plus être avec elle, mais elle compte désormais sur moi pour réaliser les étiquettes de ses pots !"
 externalLink: https://flomercier.com/
 externalText: Le site de ma tante
@@ -19,9 +19,9 @@ Ici, j'ai utilisé Illustrator pour créer les étiquettes. Sur la partie DA, ma
 
 <div class="productions__inner">
 
-<img src="/assets/projects/flow/1.jpg" alt="Étiquette 1" class="photo"/>
-<img src="/assets/projects/flow/2.jpg" alt="Étiquette 2" class="photo"/>
-<img src="/assets/projects/flow/3.jpg" alt="Étiquette 3" class="photo"/>
-<img src="/assets/projects/flow/4.jpg" alt="Étiquette 4" class="photo"/>
+<img src="/figuerola-nelia/assets/projects/flow/1.jpg" alt="Étiquette 1" class="photo"/>
+<img src="/figuerola-nelia/assets/projects/flow/2.jpg" alt="Étiquette 2" class="photo"/>
+<img src="/figuerola-nelia/assets/projects/flow/3.jpg" alt="Étiquette 3" class="photo"/>
+<img src="/figuerola-nelia/assets/projects/flow/4.jpg" alt="Étiquette 4" class="photo"/>
 
 </div>

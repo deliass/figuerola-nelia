@@ -4,7 +4,7 @@ slug: "design-totem"
 type: Scolaire
 category: Design
 filterType: design
-image: /assets/thumbnails/totem.webp
+image: /figuerola-nelia/assets/thumbnails/totem.webp
 description: "Totem : Totem est une marque de kefir de fruits, une boisson fermentée, pétillante et rafraîchissante. C’est un projet de design graphique que j’ai réalisé dans le cadre de mes études à l’ESD."
 externalLink: https://boutique.letotem.net/
 externalText: Voir le site de la marque
@@ -27,7 +27,7 @@ Behance, ou Comsos.so.
 
 ## Les rendus
 
-<img src="/assets/projects/totem/etiquettes.svg" alt="" class="photo"/>
+<img src="/figuerola-nelia/assets/projects/totem/etiquettes.svg" alt="" class="photo"/>
 
 Étiquettes colorées et déclinées en noir&blanc pour le client.
 
@@ -35,4 +35,4 @@ Behance, ou Comsos.so.
 
 Vous pouvez consulter la présentation du projet ici :
 
-[Télécharger ma présentation](/TOTEM.pdf)
+[Télécharger ma présentation](/figuerola-nelia/TOTEM.pdf)
