@@ -11,7 +11,7 @@ const posts = await getCollection("projects");
 
 <BaseLayout pageTitle="Projets">
   <Breadcrumbs
-    items={[{ href: "/", label: "Accueil" }]}
+    items={[{ href: "/figuerola-nelia/", label: "Accueil" }]}
     current="Mes projets"
   />
   <div class="hero">
@@ -60,7 +60,12 @@ const posts = await getCollection("projects");
           </li>
         </ul>
       </div>
-      <img src="/figuerola-nelia/assets/icons/categories.svg" alt="" width="134" height="135" />
+      <img
+        src="/figuerola-nelia/assets/icons/categories.svg"
+        alt=""
+        width="134"
+        height="135"
+      />
     </div>
     <div class="gallery">
       {
@@ -73,7 +78,7 @@ const posts = await getCollection("projects");
             filterType={post.data.filterType}
             image={post.data.image}
             alt="Projet photo scolaire"
-            href={`/projets/${post.id}`}
+            href={`/figuerola-nelia/projets/${post.id}`}
             buttonLabel="Voir le projet"
           />
         ))
