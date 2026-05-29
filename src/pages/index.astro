@@ -15,7 +15,11 @@ import Contact from "../components/Contact.astro";
     />
     <div class="hero">
       <h1>Salut, moi c’est Nélia&nbsp;!</h1>
-      <h3>Je conçois des interfaces claires, accessibles et sobres.</h3>
+      <h3>
+        Je conçois des interfaces claires, accessibles et sobres, pour résoudre
+        vos problèmes.
+      </h3>
+      <p>UI/UX Designer Junior</p>
     </div>
     <img
       class="bottom"
@@ -27,21 +31,53 @@ import Contact from "../components/Contact.astro";
   </section>
   <section class="welcome">
     <div class="welcome__inner">
-      <h2>Bienvenue sur mon site</h2>
-      <p>
-        Ici, vous découvrirez mon profil, mais aussi ma personnalité, car ce que
-        j’aime faire, c’est travailler avec ceux qui partagent ma vision du
-        travail.
+      <h2>Design thinking</h2>
+      <p class="quote">
+        "Le Design Thinking peut être décrit comme une discipline qui utilise la
+        sensibilité et les méthodes du designer pour faire coïncider les besoins
+        de la population avec ce qui est faisable technologiquement, et ce
+        qu’une stratégie commerciale peut convertir en valeur pour le client et
+        en opportunité de marché."
+      </p>
+      <p class="author">
+        Tim Brown, président d’IDEO et fondateur du DT explique, en 2008, dans
+        la Harvard Business Review
       </p>
       <p>
-        J’adore le digital, et j’ai plein de choses à vous présenter. De ma
-        veille et mes inspirations, jusqu’aux projets concrets et aboutis.
+        J’ai développé depuis près de 2 ans une grande appétence pour la
+        méthodologie UX, et surtout pour la technique “design thinking”. De
+        personnalité empathique et généreuse, j’apprécie un produit quand il est
+        accessible, utile, mais surtout ux friendly.
       </p>
       <div class="welcome__assets">
-        <Button title="Découvrir mes projets" href="/figuerola-nelia/projets/" />
-        <img src="/figuerola-nelia/assets/icons/welcome.svg" alt="" width="78" height="68" />
+        <Button
+          title="Découvrir mes projets"
+          href="/figuerola-nelia/projets/"
+        />
+        <img
+          src="/figuerola-nelia/assets/icons/welcome.svg"
+          alt=""
+          width="78"
+          height="68"
+        />
       </div>
     </div>
+  </section>
+
+  <section class="about">
+    <h2>À propos</h2>
+    <p>
+      Étudiante en webdesign et création de contenus web & réseaux sociaux,
+      j’aime les projets qui ont un vrai usage, et je fais attention à l’impact
+      de ce que je conçois (accessibilité et conception consciente, dès le
+      départ). Curieuse et motivée, je ne sais toujours pas ce que je préfère
+      entre découvrir et re-découvrir !<br /> Ici, vous parcourrez mon profil, mais
+      aussi ma personnalité, car ce que j’aime faire, c’est travailler avec ceux qui
+      partagent ma vision du travail.<br /> J’adore le digital, et j’ai plein de choses
+      à vous présenter. De ma veille et mes inspirations, jusqu’aux projets concrets
+      et aboutis.
+    </p>
+    <Button title="En savoir plus" href="/figuerola-nelia/a-propos/" />
   </section>
   <section class="inspi">
     <div class="inspi__assets">
@@ -84,6 +120,11 @@ import Contact from "../components/Contact.astro";
     flex-direction: column;
   }
 
+  .hero p {
+    font-weight: bold;
+    color: var(--title);
+  }
+
   .bottom {
     align-self: flex-end;
   }
@@ -107,6 +148,16 @@ import Contact from "../components/Contact.astro";
     align-items: center;
     align-self: stretch;
     gap: var(--space-m);
+  }
+
+  .quote {
+    padding-left: var(--space-s);
+    border-left: 4px solid var(--title);
+  }
+
+  .author {
+    text-align: right;
+    color: var(--title);
   }
 
   .inspi {
